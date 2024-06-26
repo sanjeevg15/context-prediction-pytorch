@@ -3,9 +3,7 @@ PyTorch Implementation of [Unsupervised Visual Representation Learning by Contex
 
 This repository allows you to train _any_ "feature extractor" on _any_ image dataset in a self-supervised fashion using the Context Prediction methodology described in the above seminal research paper.
 
-A feature extractor is used to convert images to meaningfully rich vector embeddings. A classifier is used to classify these embeddings into one of 8 categories. After the training, the classifier is discarded and the feature extractor can be used for _downstream_ tasks
-
-The feature extractor and classifier 
+A feature extractor is used to convert images to meaningfully rich vector embeddings. A classifier is used to classify these embeddings into one of 8 categories. After the training, the classifier is discarded and the feature extractor can be used for _downstream_ tasks.
 
 Usage Example: 
 
